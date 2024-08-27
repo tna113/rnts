@@ -1,5 +1,5 @@
-# Context
-[react native mastery course](https://www.youtube.com/watch?v=kGtEax1WQFg&list=PLRAV69dS1uWSjBBJ-egNNOd4mdblt1P4c&index=2)
+# react-native typescript projects
+this repository serves as a home for the react-native typescript projects i will be completing for my 2024 annual development goals. i strive to complete at least 4 out of the 10 projects that are on this [react native mastery course](https://www.youtube.com/watch?v=kGtEax1WQFg&list=PLRAV69dS1uWSjBBJ-egNNOd4mdblt1P4c&index=2)
 
 ## running the project on an external device
 1. connect android device to local machine
