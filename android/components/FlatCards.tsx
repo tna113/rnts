@@ -5,6 +5,7 @@ export default function  FlatCards() {
     return (
       <View>
         <Text style={styles.headingText}>Flat Cards</Text>
+        
         <View style={styles.container}>
           <View style={[styles.card, styles.red]}>
             <Text>red</Text>
