@@ -4,7 +4,7 @@ import { Text, StyleSheet, View, Image, ScrollView } from 'react-native'
 export default function FancyCards() {
     return (
         <View>
-          <Text style={styles.headingText}>Trending Places</Text>
+          <Text style={styles.headingText}>Palawan, Philippines</Text>
           <ScrollView horizontal>
             <View style={[styles.card, styles.elevated]}>
                 <Image
@@ -14,7 +14,7 @@ export default function FancyCards() {
                 style={styles.image}
                 />
                 <View style={styles.cardBody}>
-                    <Text style={styles.cardtitle}>el nido, palawan</Text>
+                    <Text style={styles.cardtitle}>el nido</Text>
                     <Text style={styles.cardSubtitle}>gateway to the bacuit archipelago</Text>
                     <Text style={styles.cardDescription}>
                         El Nido is a Philippine municipality on Palawan island. It’s known for white-sand beaches, coral reefs and as the gateway to the Bacuit archipelago, a group of islands with steep karst cliffs. The area has many dive sites, including Dilumacad Island’s long tunnel leading to an underwater cavern. ― Google
@@ -31,7 +31,7 @@ export default function FancyCards() {
                 style={styles.image}
                 />
                 <View style={styles.cardBody}>
-                    <Text style={styles.cardtitle}>puerto princesa, palawan</Text>
+                    <Text style={styles.cardtitle}>puerto princesa</Text>
                     <Text style={styles.cardSubtitle}>puerto princesa subterranean river national park</Text>
                     <Text style={styles.cardDescription}>
                         Puerto Princesa is a coastal city on Palawan Island in the western Philippines. It's a base for boat trips through the massive limestone caves and underground river of the biodiverse Puerto Princesa Subterranean River National Park. ― Google

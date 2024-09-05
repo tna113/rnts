@@ -2,6 +2,7 @@ import { SafeAreaView, ScrollView, StyleSheet, Text } from "react-native";
 import FlatCards from "../components/FlatCards";
 import ScrollCards from "../components/ScrollCards";
 import FancyCards from "../components/FancyCards";
+import ActionCard from "../components/ActionCard";
 
 export default function Proj2() {
     return (
@@ -10,13 +11,12 @@ export default function Proj2() {
                 <FlatCards />
                 <ScrollCards />
                 <FancyCards />
+                <ActionCard />
             </ScrollView>
         </SafeAreaView>
     );
 }
 
 const styles = StyleSheet.create({
-    container: {
-        height: '100%',
-    },
+    container: {},
 });
