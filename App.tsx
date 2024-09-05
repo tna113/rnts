@@ -8,13 +8,15 @@
 import React, { useState } from 'react';
 import type {PropsWithChildren} from 'react';
 import Proj1 from './android/projects/Proj1';
+import Proj2 from './android/projects/Proj2';
 
 // type SectionProps = PropsWithChildren<{ title: string; }>;
 // function Section({children, title}: SectionProps): React.JSX.Element {}
 
 function App(): React.JSX.Element {
   return (
-    <Proj1 />
+    // <Proj1 />
+    <Proj2 />
   );
 }
 
