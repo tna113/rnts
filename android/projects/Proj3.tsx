@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { GestureResponderEvent, SafeAreaView, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
+import { SafeAreaView, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
 import BouncyCheckbox from "react-native-bouncy-checkbox"
+import Clipboard from "@react-native-clipboard/clipboard";
 
 //form validation
 import * as Yup from 'yup';
 import { Formik } from "formik";
-import Clipboard from "@react-native-clipboard/clipboard";
 
 const PasswordSchema = Yup.object().shape({
     passwordLength: Yup.number()
