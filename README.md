@@ -25,3 +25,24 @@ this repository serves as a home for the react-native typescript projects i will
 - debugging build failures (watchman failing, authorizing external android device, local machine permissions)
 
 ## project 2
+- built different UI components with varying degrees of complexity
+  - scrollviews
+  - flex
+  - images
+  - on press functionality
+    - open a browser with a given link on button press
+
+## project 3
+- basic password generator
+- installed and implemented different `npm` packages
+  - [bouncy checkbox](https://www.npmjs.com/package/react-native-bouncy-checkbox) - a nice checkbox
+  - [`yup`](https://www.npmjs.com/package/yup) - form validation
+  - [`formik`](https://www.npmjs.com/package/formik) - form handling that works alongside `yup`
+  - [clipboard](https://www.npmjs.com/package/@react-native-clipboard/clipboard) - to use device clipboard
+- working with `useState`
+- traversing through an array using javascript `.map` function
+  - when using `{}` for the callback function, you need to specify `return`
+    - ie. `.map((value) => { return ( <View/> ) })`
+  - when using `()` for the callback function, you do not need specify this
+    - ie. `.map((value) => ( <View/> ))`
+- shortcut to cast a string into a number: prefix the variable you want to cast into a number with a `+`
