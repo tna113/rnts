@@ -3,6 +3,7 @@ import FlatCards from "../components/FlatCards";
 import ScrollCards from "../components/ScrollCards";
 import FancyCards from "../components/FancyCards";
 import ActionCard from "../components/ActionCard";
+import ContactList from "../components/ContactList";
 
 export default function Proj2() {
     return (
@@ -12,6 +13,7 @@ export default function Proj2() {
                 <ScrollCards />
                 <FancyCards />
                 <ActionCard />
+                <ContactList />
             </ScrollView>
         </SafeAreaView>
     );
