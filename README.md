@@ -46,3 +46,6 @@ this repository serves as a home for the react-native typescript projects i will
   - when using `()` for the callback function, you do not need specify this
     - ie. `.map((value) => ( <View/> ))`
 - shortcut to cast a string into a number: prefix the variable you want to cast into a number with a `+`
+- debugging the application & developer menu
+  - pressing `d` on metro builder terminal
+  - select stop debugging (this will open a tab in your browser where you can inspect and view console logs)
