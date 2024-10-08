@@ -49,3 +49,7 @@ this repository serves as a home for the react-native typescript projects i will
 - debugging the application & developer menu
   - pressing `d` on metro builder terminal
   - select stop debugging (this will open a tab in your browser where you can inspect and view console logs)
+
+## project 4
+- handling and optimizing images
+- implementing haptic feedback [[react-native-haptic-feedback](https://www.npmjs.com/package/react-native-haptic-feedback)]
